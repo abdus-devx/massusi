@@ -1,0 +1,38 @@
+backend:
+  name: turbo-github
+  turbo_site_id: YOUR_TURBO_SITE_ID
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: https://massusi.net
+logo_url: /assets/images/og-default.svg
+
+publish_mode: simple
+
+collections:
+  - name: "articles"
+    label: "Artikel"
+    label_singular: "Artikel"
+    folder: "content/articles"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["publishDate", "title", "category"]
+    summary: "{{publishDate}} — {{title}}"
+    fields:
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL artikel. Gunakan huruf kecil dan tanda hubung." }
+      - { label: "Kategori", name: "category", widget: "select", options: ["Herbal", "Kesehatan", "Edukasi", "Industri", "Maklon", "Bisnis", "Produk", "Lifestyle"] }
+      - { label: "Ringkasan", name: "excerpt", widget: "text" }
+      - { label: "Penulis", name: "author", widget: "string", default: "Massusi Editorial" }
+      - { label: "Tanggal Terbit", name: "publishDate", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+      - { label: "Tanggal Diperbarui", name: "modifiedDate", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+      - { label: "Estimasi Baca", name: "readTime", widget: "string", default: "5 min read" }
+      - { label: "Gambar Utama", name: "image", widget: "image", required: false }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+      - { label: "Featured", name: "featured", widget: "boolean", default: false, required: false }
+      - { label: "Isi Artikel", name: "body", widget: "markdown" }

@@ -1,0 +1,8 @@
+{
+  "name": "massusi-knowledge-hub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-content.mjs"
+  }
+}
