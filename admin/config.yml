@@ -1,6 +1,6 @@
 backend:
   name: turbo-github
-  turbo_site_id: YOUR_TURBO_SITE_ID
+  turbo_site_id: 313e4492-fb51-45c8-bcca-491b67164506
   branch: main
 
 media_folder: "assets/uploads"
@@ -22,17 +22,70 @@ collections:
     summary: "{{publishDate}} — {{title}}"
     fields:
       - { label: "Judul", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string", hint: "URL artikel. Gunakan huruf kecil dan tanda hubung." }
-      - { label: "Kategori", name: "category", widget: "select", options: ["Herbal", "Kesehatan", "Edukasi", "Industri", "Maklon", "Bisnis", "Produk", "Lifestyle"] }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          hint: "URL artikel. Gunakan huruf kecil dan tanda hubung.",
+        }
+      - {
+          label: "Kategori",
+          name: "category",
+          widget: "select",
+          options:
+            [
+              "Herbal",
+              "Kesehatan",
+              "Edukasi",
+              "Industri",
+              "Maklon",
+              "Bisnis",
+              "Produk",
+              "Lifestyle",
+            ],
+        }
       - { label: "Ringkasan", name: "excerpt", widget: "text" }
-      - { label: "Penulis", name: "author", widget: "string", default: "Massusi Editorial" }
-      - { label: "Tanggal Terbit", name: "publishDate", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
-      - { label: "Tanggal Diperbarui", name: "modifiedDate", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
-      - { label: "Estimasi Baca", name: "readTime", widget: "string", default: "5 min read" }
-      - { label: "Gambar Utama", name: "image", widget: "image", required: false }
+      - {
+          label: "Penulis",
+          name: "author",
+          widget: "string",
+          default: "Massusi Editorial",
+        }
+      - {
+          label: "Tanggal Terbit",
+          name: "publishDate",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+          time_format: false,
+        }
+      - {
+          label: "Tanggal Diperbarui",
+          name: "modifiedDate",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+          time_format: false,
+        }
+      - {
+          label: "Estimasi Baca",
+          name: "readTime",
+          widget: "string",
+          default: "5 min read",
+        }
+      - {
+          label: "Gambar Utama",
+          name: "image",
+          widget: "image",
+          required: false,
+        }
       - label: "Tags"
         name: "tags"
         widget: "list"
         required: false
-      - { label: "Featured", name: "featured", widget: "boolean", default: false, required: false }
+      - {
+          label: "Featured",
+          name: "featured",
+          widget: "boolean",
+          default: false,
+          required: false,
+        }
       - { label: "Isi Artikel", name: "body", widget: "markdown" }
