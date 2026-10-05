@@ -92,3 +92,37 @@ collections:
       - label: Isi Artikel
         name: body
         widget: markdown
+
+  - name: advertisements
+    label: Advertisement
+    label_singular: Advertisement
+    folder: content/advertisements
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: Nama Banner
+        name: title
+        widget: string
+
+      - label: Posisi
+        name: position
+        widget: select
+        options:
+          - after-hero
+          - between-articles
+          - sidebar
+
+      - label: Gambar Banner
+        name: image
+        widget: image
+        required: true
+
+      - label: Link Tujuan
+        name: link
+        widget: string
+        required: false
+
+      - label: Aktif
+        name: active
+        widget: boolean
+        default: true
