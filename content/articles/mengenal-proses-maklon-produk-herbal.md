@@ -42,7 +42,7 @@ Semakin jelas kebutuhan tersebut sejak awal, semakin mudah proses komunikasi dan
 
 Secara umum, pengembangan produk herbal dapat melalui beberapa tahapan. Detail prosesnya dapat berbeda tergantung jenis produk, formula, bentuk sediaan, serta kebutuhan legalitasnya.
 
-### 1. Menentukan Konsep dan Kebutuhan Produk
+ #### 1. Menentukan Konsep dan Kebutuhan Produk
 
 Tahap pertama adalah menentukan gambaran produk yang ingin dikembangkan.
 
@@ -50,7 +50,7 @@ Pada tahap ini, pemilik brand dapat mulai menentukan bentuk produk, target konsu
 
 Jika belum memiliki formula sendiri, konsultasi dengan pihak yang memiliki pengalaman dalam pengembangan produk dapat membantu memperjelas pilihan yang tersedia.
 
-### 2. Pengembangan Formula dan Sampel
+ #### 2. Pengembangan Formula dan Sampel
 
 Setelah konsep produk lebih jelas, tahap berikutnya adalah pengembangan formula.
 
@@ -58,7 +58,7 @@ Tim pengembangan dapat menyesuaikan formula dengan karakteristik produk, bahan b
 
 Sebelum masuk ke produksi dalam jumlah besar, sampel produk umumnya perlu dievaluasi terlebih dahulu. Tahap ini penting untuk memastikan produk yang dikembangkan telah sesuai dengan konsep dan spesifikasi yang disepakati.
 
-### 3. Persiapan Legalitas Produk
+#### 3. Persiapan Legalitas Produk
 
 Produk yang akan diedarkan secara komersial perlu memperhatikan persyaratan perizinan dan ketentuan yang berlaku.
 
@@ -66,7 +66,7 @@ Tergantung jenis produknya, proses legalitas dapat melibatkan persyaratan sepert
 
 Karena ketentuan dapat berbeda berdasarkan kategori produk, proses ini sebaiknya dilakukan dengan memperhatikan regulasi yang berlaku dan pendampingan pihak yang memahami prosesnya.
 
-### 4. Persiapan Kemasan dan Identitas Brand
+#### 4. Persiapan Kemasan dan Identitas Brand
 
 Produk yang sudah memiliki konsep dan formula kemudian perlu diterjemahkan ke dalam identitas brand.
 
@@ -74,7 +74,7 @@ Kemasan tidak hanya berfungsi sebagai pelindung produk, tetapi juga menjadi sala
 
 Informasi pada kemasan perlu disiapkan secara tepat dan disesuaikan dengan ketentuan yang berlaku, sementara elemen visual dapat dikembangkan agar sesuai dengan karakter brand dan target pasar.
 
-### 5. Proses Produksi
+#### 5. Proses Produksi
 
 Setelah formula, spesifikasi, kemasan, dan persyaratan yang diperlukan siap, produk dapat masuk ke tahap produksi.
 
@@ -82,7 +82,7 @@ Dalam memilih mitra produksi, salah satu hal yang penting diperhatikan adalah st
 
 Untuk produk herbal, fasilitas produksi dengan standar **CPOTB (Cara Pembuatan Obat Tradisional yang Baik)** menjadi salah satu aspek penting yang perlu dipertimbangkan sesuai kategori dan jenis produk yang dikembangkan.
 
-### 6. Produk Siap Didistribusikan
+#### 6. Produk Siap Didistribusikan
 
 Setelah proses produksi selesai dan seluruh persyaratan yang diperlukan telah terpenuhi, produk dapat dipersiapkan untuk proses distribusi dan pemasaran.
 
