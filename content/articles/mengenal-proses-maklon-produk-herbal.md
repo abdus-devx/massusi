@@ -42,7 +42,7 @@ Semakin jelas kebutuhan tersebut sejak awal, semakin mudah proses komunikasi dan
 
 Secara umum, pengembangan produk herbal dapat melalui beberapa tahapan. Detail prosesnya dapat berbeda tergantung jenis produk, formula, bentuk sediaan, serta kebutuhan legalitasnya.
 
- ### 1. Menentukan Konsep dan Kebutuhan Produk
+### 1. Menentukan Konsep dan Kebutuhan Produk
 
 Tahap pertama adalah menentukan gambaran produk yang ingin dikembangkan.
 
@@ -50,7 +50,7 @@ Pada tahap ini, pemilik brand dapat mulai menentukan bentuk produk, target konsu
 
 Jika belum memiliki formula sendiri, konsultasi dengan pihak yang memiliki pengalaman dalam pengembangan produk dapat membantu memperjelas pilihan yang tersedia.
 
- ### 2. Pengembangan Formula dan Sampel
+### 2. Pengembangan Formula dan Sampel
 
 Setelah konsep produk lebih jelas, tahap berikutnya adalah pengembangan formula.
 
