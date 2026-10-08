@@ -179,3 +179,5 @@ document.addEventListener("keydown", (e) => {
     openSearch();
   }
 });
+
+lucide.createIcons();

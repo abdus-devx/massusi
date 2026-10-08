@@ -38,6 +38,9 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- LUCIDE ICONS -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
     <link rel="stylesheet" href="/css/variables.css" />
     <link rel="stylesheet" href="/css/base.css" />
     <link rel="stylesheet" href="/css/layout.css" />
@@ -78,48 +81,80 @@
 
         <nav class="side-nav" aria-label="Main menu">
           <p class="nav-label">Main Menu</p>
-          <a href="/" data-route data-nav="dashboard"
-            ><span>⌂</span>Dashboard</a
-          >
-          <a href="/artikel" data-route data-nav="artikel"
-            ><span>▤</span>Artikel</a
-          >
-          <a href="/artikel/edukasi" data-route data-nav="edukasi"
-            ><span>◈</span>Edukasi</a
-          >
-          <a href="/artikel/industri" data-route data-nav="industri"
-            ><span>◌</span>Industri Herbal</a
-          >
-          <a href="/artikel/kesehatan" data-route data-nav="kesehatan"
-            ><span>+</span>Kesehatan</a
-          >
-          <a href="/artikel/maklon" data-route data-nav="maklon"
-            ><span>◇</span>Maklon</a
-          >
-          <a href="/artikel/produk" data-route data-nav="produk"
-            ><span>□</span>Produk</a
-          >
-          <a href="/tentang" data-route data-nav="tentang"
-            ><span>i</span>Tentang Massusi</a
-          >
+
+          <a href="/" data-route data-nav="dashboard">
+            <i data-lucide="house"></i>
+            <span>Dashboard</span>
+          </a>
+
+          <a href="/artikel" data-route data-nav="artikel">
+            <i data-lucide="book-open"></i>
+            <span>Artikel</span>
+          </a>
+
+          <a href="/artikel/edukasi" data-route data-nav="edukasi">
+            <i data-lucide="graduation-cap"></i>
+            <span>Edukasi</span>
+          </a>
+
+          <a href="/artikel/industri" data-route data-nav="industri">
+            <i data-lucide="factory"></i>
+            <span>Industri Herbal</span>
+          </a>
+
+          <a href="/artikel/kesehatan" data-route data-nav="kesehatan">
+            <i data-lucide="heart-pulse"></i>
+            <span>Kesehatan</span>
+          </a>
+
+          <a href="/artikel/maklon" data-route data-nav="maklon">
+            <i data-lucide="flask-conical"></i>
+            <span>Maklon</span>
+          </a>
+
+          <a href="/artikel/produk" data-route data-nav="produk">
+            <i data-lucide="package"></i>
+            <span>Produk</span>
+          </a>
+
+          <a href="/tentang" data-route data-nav="tentang">
+            <i data-lucide="info"></i>
+            <span>Tentang Massusi</span>
+          </a>
 
           <p class="nav-label nav-gap">Massusi Ecosystem</p>
-          <a href="https://profile.massusi.net" target="_blank" rel="noopener"
-            ><span>↗</span>Company Profile</a
-          >
-          <a href="https://maklon.massusi.net" target="_blank" rel="noopener"
-            ><span>↗</span>Jasa Maklon</a
-          >
-          <a href="https://store.massusi.net" target="_blank" rel="noopener"
-            ><span>↗</span>Online Store</a
-          >
+
+          <a href="https://profile.massusi.net" target="_blank" rel="noopener">
+            <i data-lucide="external-link"></i>
+            <span>Company Profile</span>
+          </a>
+
+          <a href="https://maklon.massusi.net" target="_blank" rel="noopener">
+            <i data-lucide="external-link"></i>
+            <span>Jasa Maklon</span>
+          </a>
+
+          <a href="https://store.massusi.net" target="_blank" rel="noopener">
+            <i data-lucide="external-link"></i>
+            <span>Online Store</span>
+          </a>
 
           <p class="nav-label nav-gap">Other</p>
-          <a href="/artikel?search=" data-route data-nav="search"
-            ><span>⌕</span>Search</a
-          >
-          <a href="#contact" data-scroll><span>✆</span>Contact</a>
-          <a href="#privacy" data-scroll><span>◫</span>Privacy Policy</a>
+
+          <a href="/artikel?search=" data-route data-nav="search">
+            <i data-lucide="search"></i>
+            <span>Search</span>
+          </a>
+
+          <a href="#contact" data-scroll>
+            <i data-lucide="phone"></i>
+            <span>Contact</span>
+          </a>
+
+          <a href="#privacy" data-scroll>
+            <i data-lucide="shield-check"></i>
+            <span>Privacy Policy</span>
+          </a>
         </nav>
         <div class="sidebar-foot">
           © 2026 Massusi design by
