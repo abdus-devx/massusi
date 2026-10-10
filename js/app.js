@@ -157,6 +157,9 @@ function openSearch() {
 }
 document.getElementById("searchTrigger").addEventListener("click", openSearch);
 document
+  .querySelector('[data-mobile-nav="search"]')
+  .addEventListener("click", openSearch);
+document
   .getElementById("searchClose")
   .addEventListener("click", () => modal.close());
 input.addEventListener("input", () =>

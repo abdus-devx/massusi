@@ -232,6 +232,92 @@
           <div class="footer-bottom">© 2026 Massusi. All rights reserved.</div>
         </footer>
       </div>
+
+      <nav class="mobile-bottom-nav" aria-label="Navigasi mobile">
+        <a href="/" data-route data-mobile-nav="home" aria-label="Home">
+          <i data-lucide="house"></i>
+          <span>Home</span>
+        </a>
+
+        <a
+          href="/artikel"
+          data-route
+          data-mobile-nav="artikel"
+          aria-label="Artikel"
+        >
+          <i data-lucide="book-open"></i>
+          <span>Artikel</span>
+        </a>
+
+        <button
+          type="button"
+          data-mobile-nav="search"
+          aria-label="Cari artikel"
+        >
+          <i data-lucide="search"></i>
+          <span>Cari</span>
+        </button>
+
+        <button
+          type="button"
+          id="mobileMoreToggle"
+          aria-label="Menu lainnya"
+          aria-expanded="false"
+          aria-controls="mobileMoreMenu"
+        >
+          <i data-lucide="ellipsis"></i>
+          <span>More</span>
+        </button>
+      </nav>
+
+      <div class="mobile-more-backdrop" id="mobileMoreBackdrop" hidden></div>
+
+      <nav
+        class="mobile-more-menu"
+        id="mobileMoreMenu"
+        aria-label="Menu lainnya"
+        hidden
+      >
+        <a href="/artikel/edukasi" data-route data-nav="edukasi">
+          <i data-lucide="graduation-cap"></i>
+          <span>Edukasi</span>
+        </a>
+        <a href="/artikel/industri" data-route data-nav="industri">
+          <i data-lucide="factory"></i>
+          <span>Industri Herbal</span>
+        </a>
+        <a href="/artikel/kesehatan" data-route data-nav="kesehatan">
+          <i data-lucide="heart-pulse"></i>
+          <span>Kesehatan</span>
+        </a>
+        <a href="/artikel/maklon" data-route data-nav="maklon">
+          <i data-lucide="flask-conical"></i>
+          <span>Maklon</span>
+        </a>
+        <a href="/artikel/produk" data-route data-nav="produk">
+          <i data-lucide="package"></i>
+          <span>Produk</span>
+        </a>
+        <a href="/tentang" data-route data-nav="tentang">
+          <i data-lucide="info"></i>
+          <span>Tentang Massusi</span>
+        </a>
+
+        <div class="mobile-more-divider"></div>
+
+        <a href="https://profile.massusi.net" target="_blank" rel="noopener">
+          <i data-lucide="external-link"></i>
+          <span>Company Profile</span>
+        </a>
+        <a href="https://maklon.massusi.net" target="_blank" rel="noopener">
+          <i data-lucide="external-link"></i>
+          <span>Jasa Maklon</span>
+        </a>
+        <a href="https://store.massusi.net" target="_blank" rel="noopener">
+          <i data-lucide="shopping-bag"></i>
+          <span>Online Store</span>
+        </a>
+      </nav>
     </div>
 
     <dialog class="search-modal" id="searchModal" aria-labelledby="searchTitle">
