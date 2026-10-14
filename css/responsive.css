@@ -1,3 +1,7 @@
+.mobile-dashboard {
+  display: none;
+}
+
 @media (max-width: 1050px) {
   :root {
     --sidebar: 230px;
@@ -307,6 +311,56 @@
     min-height: 38px;
     align-items: center;
     border-radius: 9px;
+  }
+
+  /* Mobile Dashboard */
+  main > .mobile-dashboard {
+    display: block;
+  }
+
+  main > .mobile-dashboard .mobile-stories {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding: 4px 2px 12px;
+    margin: 0 -2px 12px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  main > .mobile-dashboard .mobile-stories::-webkit-scrollbar {
+    display: none;
+  }
+
+  main > .mobile-dashboard .mobile-story {
+    display: flex;
+    flex: 0 0 68px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-text);
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  main > .mobile-dashboard .mobile-story-icon {
+    display: flex;
+    width: 58px;
+    height: 58px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcebe0;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #edf7ef, #fff);
+    color: var(--color-primary, #256f46);
+  }
+
+  main > .mobile-dashboard .mobile-story-icon svg {
+    width: 25px;
+    height: 25px;
+    stroke-width: 1.8;
   }
 
   /* About */

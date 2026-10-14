@@ -36,7 +36,9 @@ const card = (a) =>
 
 function shell(content) {
   main.innerHTML = content;
+  lucide.createIcons();
 }
+
 function ad(position) {
   const item = advertisements.find((x) => x.position === position && x.active);
 
@@ -57,7 +59,39 @@ function ad(position) {
 
 function home() {
   const featured = articles.find((a) => a.featured) || articles[0];
-  shell(`<section class="hero"><div><span class="eyebrow">Massusi Knowledge & Business Hub</span><h1>Insight, Edukasi & Informasi Seputar Herbal dan Bisnis Kesehatan</h1><p>Pusat informasi Massusi untuk memahami herbal, kesehatan, pengembangan produk, industri, bisnis, dan jasa maklon melalui konten yang informatif dan mudah dipahami.</p><div class="hero-actions"><a class="btn btn-primary" href="/artikel" data-route>Jelajahi Artikel →</a><a class="btn btn-secondary" href="/tentang" data-route>Kenal Massusi</a></div></div><aside class="hero-note"><strong>Knowledge first.</strong><p>Website utama Massusi dirancang sebagai hub informasi, bukan toko online.</p></aside></section>
+  shell(`<section class="mobile-dashboard" aria-label="Dashboard mobile">
+<div class="mobile-stories" aria-label="Jelajahi Massusi">
+  <a class="mobile-story" href="/artikel" data-route>
+    <span class="mobile-story-icon">
+      <i data-lucide="book-open"></i>
+    </span>
+    <span>Artikel</span>
+  </a>
+
+  <a class="mobile-story" href="/artikel" data-route>
+    <span class="mobile-story-icon">
+      <i data-lucide="leaf"></i>
+    </span>
+    <span>Herbal</span>
+  </a>
+
+  <a class="mobile-story" href="/artikel" data-route>
+    <span class="mobile-story-icon">
+      <i data-lucide="lightbulb"></i>
+    </span>
+    <span>Bisnis</span>
+  </a>
+
+  <a class="mobile-story" href="https://maklon.massusi.net"
+     target="_blank" rel="noopener">
+    <span class="mobile-story-icon">
+      <i data-lucide="flask-conical"></i>
+    </span>
+    <span>Maklon</span>
+  </a>
+</div>
+</section>
+<section class="hero"><div><span class="eyebrow">Massusi Knowledge & Business Hub</span><h1>Insight, Edukasi & Informasi Seputar Herbal dan Bisnis Kesehatan</h1><p>Pusat informasi Massusi untuk memahami herbal, kesehatan, pengembangan produk, industri, bisnis, dan jasa maklon melalui konten yang informatif dan mudah dipahami.</p><div class="hero-actions"><a class="btn btn-primary" href="/artikel" data-route>Jelajahi Artikel →</a><a class="btn btn-secondary" href="/tentang" data-route>Kenal Massusi</a></div></div><aside class="hero-note"><strong>Knowledge first.</strong><p>Website utama Massusi dirancang sebagai hub informasi, bukan toko online.</p></aside></section>
  ${ad("after-hero")}
  <section><div class="section-head"><h2>Featured Insight</h2><a href="/artikel" data-route>Lihat semua →</a></div><article class="featured"><a class="featured-media" href="/artikel/${featured.slug}" data-route>${artMedia(featured.category, featured.image)}</a><div class="featured-copy"><span class="category">${featured.category}</span><h2>${featured.title}</h2><p>${featured.excerpt}</p><div class="meta"><span>${featured.author}</span><span>·</span><time datetime="${featured.date}">${featured.date}</time><span>·</span><span>${featured.readTime}</span></div><div class="hero-actions"><a class="btn btn-primary" href="/artikel/${featured.slug}" data-route>Baca Artikel →</a></div></div></article></section>
  <section><div class="section-head"><h2>Artikel Terbaru</h2><a href="/artikel" data-route>Semua artikel →</a></div><div class="article-grid">${articles.slice(0, 6).map(card).join("")}</div></section>
